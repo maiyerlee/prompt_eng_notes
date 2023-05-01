@@ -30,10 +30,12 @@ Model Limitations
 Iterative Prompt Development
 - ML: Idea -> Implementation (code/data) -> Experimental results/Error analysis -> Idea...
 - Idea -> Prompt -> Results/Analysis -> Idea...
+- Process: try -> analyze where model can improve on -> clarify instructions, allow model time to "think" -> refine prompts with a batch of examples
 
 Prompt Guildlines: 
 - Be clear and specific 
 - Analyze why result does not give desired output
 - Refine the idea and the prompt 
 - Repeat 
+
 
