@@ -1,3 +1,5 @@
+Use LLMs responsibly 
+
 model used = gpt-3.5-turbo
 endpoints = https://platform.openai.com/docs/guides/chat
 
@@ -21,6 +23,8 @@ Instruction Tuned LLM Principles:
         2. Ask for output in a specific format
         3. Instruct the model to work out it's own solution before rushing to a conclusion
 
+Capabilities: summarizing, inferring, transforming, expanding, chatbot
+
 Model Limitations
 - hallucinations - making statements that sounds plausible but are not true
     - model doesn't know the boundaries of it's knowledge well
@@ -38,4 +42,8 @@ Prompt Guildlines:
 - Refine the idea and the prompt 
 - Repeat 
 
-
+Temperature
+- randomness of the model
+- temp = 0 for task that require reliability and predictability 
+- temp = higher for tasks that require variety
+    - model outputs more random at higher temp

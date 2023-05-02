@@ -182,8 +182,7 @@ def principle1_tatic4():  #  few-shot
 
 # principle 2 = give model time to think
 
-def principle2_tatic1():  #  specift steps
-    text = f"""
+text = f"""
     In a charming village, siblings Jack and Jill set out on \ 
     a quest to fetch water from a hilltop \ 
     well. As they climbed, singing joyfully, misfortune \ 
@@ -194,6 +193,8 @@ def principle2_tatic1():  #  specift steps
     their adventurous spirits remained undimmed, and they \ 
     continued exploring with delight.
     """
+
+def principle2_tatic1():  #  specift steps
     # example 1
     prompt_1 = f"""
     Perform the following actions: 
